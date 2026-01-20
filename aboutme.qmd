@@ -10,8 +10,6 @@ I am originally from El Salvador, one of the smallest countries in the Americas,
 
 Based on this experience, I decided to pursue a doctoral degree in the Us with a focus on food safety. I try to understand and quantify the effects of enviromental and biological factors affecting the persistant of pathogens in food processing. I would like to bridge enhance the analysis of the microbiology data we collect. I am a beginner in statistics and have mostly learned and applied t-tests, ANOVAs, chi-square tests, and Fisher’s exact tests. I have used both SAS and R for my work; however, I have never taken a formal class in R. I hope to gain a better understanding of how to improve my analyses and take them to the next level.
 
-A website that you might find interesting if you are passionate about food safety is the
-[BEAM Dashboard](https://www.cdc.gov/ncezid/dfwed/BEAM-dashboard.html)
+A website that you might find interesting if you are passionate about food safety is the [BEAM Dashboard](https://www.cdc.gov/ncezid/dfwed/BEAM-dashboard.html)
 
 The BEAM (Bacteria, Enterics, Ameba, and Mycotics) Dashboard is an interactive platform for visualizing data on foodborne and waterborne pathogens. It tracks pathogen trends, serotypes, antimicrobial resistance, and multistate outbreaks, along with data from NARMS and NORS to support illness prevention efforts.
-
