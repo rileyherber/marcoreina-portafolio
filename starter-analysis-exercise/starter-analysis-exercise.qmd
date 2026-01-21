@@ -29,15 +29,11 @@ summary(africandata)
 # determine the type of object gapminder is
 class(africandata)
 
-africandata #display 2907 rows, 9 columns
 ```
 
 ```{r}
 infant_mortality_data <- data.frame(africandata$infant_mortality, africandata$life_expectancy) #making a dataframe for infant mortality
-infant_mortality_data #display 2907 rows, 2 columns
-
 population_data <- data.frame(africandata$population, africandata$life_expectancy) #making a dataframe for infant mortality
-population_data #display 2907 rows, 2 columns
 ```
 
 ```{r}
@@ -56,36 +52,35 @@ str(population_data)
 summary(population_data)
 ```
 
- ```{r}
- #ploting infant mortality vs life expectancy
- plot(infant_mortality_data$africandata.infant_mortality, infant_mortality_data$africandata.life_expectancy)
- 
- ```
+```{r}
+#ploting infant mortality vs life expectancy
+plot(infant_mortality_data$africandata.infant_mortality, infant_mortality_data$africandata.life_expectancy)
+```
 
-  ```{r}
+```{r}
  #ploting population vs life expectancy
  plot(log(population_data$africandata.population, base = 2), population_data$africandata.life_expectancy)
  
 # In both plots, streak patterns occur because each country contributes multiple times across different years and they tend to grow.
- ```
+```
 
- ```{r}
+```{r}
 missingyears <- is.na(infant_mortality_data$africandata.infant_mortality)
 
 missingyears_df <- data.frame(africandata$year, missingyears)
 
 plot(missingyears_df)
 
- ```
+```
 
 ```{r}
 africandata_year2000 <- subset(africandata, year %in% 2000)
 
 # get an overview of data structure
-str(africandata_year200)
+str(africandata_year2000)
 
 # get a summary of data
-summary(africandata_year200)
+summary(africandata_year2000)
 ```
 
 ```{r}
