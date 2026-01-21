@@ -26,7 +26,7 @@ str(africandata)
 # get a summary of data
 summary(africandata)
 
-# determine the type of object gapminder is
+# determine the type of object 
 class(africandata)
 
 ```
